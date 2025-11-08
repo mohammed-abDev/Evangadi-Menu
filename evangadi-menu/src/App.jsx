@@ -1,9 +1,9 @@
 import  { Component } from 'react';
 import Header from './header/Header';
 import FoodItem from './body/FoodItem';
-import "../src/header/Header"
-
+import "../src/header/Header";
 import "./commonResource/common.css";
+import "./App.css";
 
 
 
@@ -14,7 +14,7 @@ import "./commonResource/common.css";
       <>
         <div className="all-container">
           <Header />
-        
+          <FoodItem />
         </div>
       </>
     );
